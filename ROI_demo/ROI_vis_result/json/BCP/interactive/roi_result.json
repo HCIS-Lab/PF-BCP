@@ -1,0 +1,34 @@
+{
+    "Method": "BCP",
+    "Attribute": [
+        "Car",
+        "Clear",
+        "Cloudy",
+        "Wet",
+        "Rain",
+        "Sunset",
+        "Low",
+        "Mid",
+        "High",
+        "T-intersection-A"
+    ],
+    "type": "interactive",
+    "confusion matrix": {
+        "TP": 27,
+        "FN": 103,
+        "FP": 39,
+        "TN": 1472
+    },
+    "recall": 0.20769229171597756,
+    "precision": 0.40909084710744736,
+    "accuracy": 0.9134673923615637,
+    "f1-Score": 0.27550570915186545,
+    "IDcnt": 1641,
+    "IDsw": 25,
+    "IDsw rate": 0.015234613040828763,
+    "wMOTA": 0.5545461487552819,
+    "PIC": 22.989378725381187,
+    "OT-F1-1s": 0.19177604064939754,
+    "OT-F1-2s": 0.19177604064939754,
+    "OT-F1-3s": 0.19177604064939754
+}

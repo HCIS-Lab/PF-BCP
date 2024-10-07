@@ -1,0 +1,23 @@
+{
+    "Method": "BCP",
+    "Attribute": "All",
+    "type": "interactive",
+    "confusion matrix": {
+        "TP": 7612,
+        "FN": 9822,
+        "FP": 12125,
+        "TN": 146244
+    },
+    "recall": "43.66%",
+    "precision": "38.57%",
+    "accuracy": "87.52%",
+    "f1-Score": "40.96%",
+    "IDcnt": "175803",
+    "IDsw": "5032",
+    "IDsw rate": "2.86%",
+    "wMOTA": "63.19%",
+    "PIC": "29.3",
+    "OT-F1-1s": "49.26%",
+    "OT-F1-2s": "47.18%",
+    "OT-F1-3s": "44.18%"
+}
