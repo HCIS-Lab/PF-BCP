@@ -44,42 +44,67 @@ Ze-Yan Lu and
 </p>
 
 
+## 🔥 Update
+* **October 2024: 📊 ROI demo tool released!**
+* **September 2024: 🎉 Project page and YouTube video announced!**
+
 
 ## ⚙️ Getting Started
 
+### 📝 System Setup
+* **Operating System:** Linux Ubuntu 18.04
+* **Python Version:** 3.7
+* **PyTorch Version:** 1.8.0
+* **CUDA Version:** 11.6
+* **GPU:** Nvidia RTX 3090
+* **CPU:** Intel Core i7-10700
+
+### 📥 Dependency Installation
+
+1. Clone the Repository
+    ```bash
+    git clone https://github.com/HCIS-Lab/PF-BCP
+    ```
+
+2. Create and activate a new [Conda](https://docs.anaconda.com/miniconda/) environment:
+    ```bash
+    conda create -n YOUR_ENV python=3.7
+    conda activate YOUR_ENV
+    cd PF-BCP
+    ```
+
+3. Run the following command to install all required packages from ``requirements.txt``:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
 ### 📦 Datasets Downloads
+
 * Download `RiskBench_Dataset` [here](https://nycu1-my.sharepoint.com/:f:/g/personal/ychen_m365_nycu_edu_tw/EviA5ovlh6hPo_ZXEPQjxAQB2R3vNubk3HM1u4ib1VdPFA?e=WHEWdm).
 
 * Download `metadata.zip` [here](./ROI_demo/metatdata.zip).
 
 
-### 📥 Dependency Installation
-1. Create and activate a new Conda environment:
-    ```bash
-    conda create -n YOUR_ENV python=3.7
-    conda activate YOUR_ENV
-    ```
-
-2. Run the following command to install all required packages from ``requirements.txt``:
-    ```bash
-    pip install -r requirements.txt
-    ```
 
 ## 🚀 Usage
+
 ### Comming Soon
 
 
-## 📊 Fine-grained Scenario-based Analysis
 
-We perform offline risk identification evaluation and fine-grained scenario-based analysis by taking input as preserved risk identification prediction. 
+## 📊 ROI Demo
+
+We perform offline risk object identification evaluations and visualize fine-grained scenario-based analysis using preserved prediction data as input.
 
 
 To perform the evaluation, please follow the instructions provided [here](./ROI_demo).
 
 
-## 📄 Citation
-If you find PF-BCP helpful in your work, please consider citing the following:
-```
+## 📄 BibTeX
+
+If our work contributes to your research, please consider citing it with the following BibTeX entry:
+
+```bibtex
 @article{pao2024PFBCP,
     title   = {{Potential Field as Scene Affordance for Behavior Change-Based Visual Risk Object Identification}},
     author  = {Pang-Yuan Pao and Shu-Wei Lu and Ze-Yan Lu and Yi-Ting Chen},
@@ -92,6 +117,11 @@ If you find PF-BCP helpful in your work, please consider citing the following:
 <!-- # 📜 License
 
 This project is licensed under the [GPL-3.0 LICENSE](./LICENSE). -->
+
+
+## 🙌 Acknowledgment
+
+We acknowledge that the dataset and baselines used in this project are adapted from [RiskBench](https://hcis-lab.github.io/RiskBench/).
 
 
 
