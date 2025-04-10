@@ -36,22 +36,23 @@ This document provides brief instructions on using the evaluation tools for Visu
 
 <br/>
 
-1. Run the visualization tool
+1. Start the Visualization Tool
 
-	Execute the following command to run the analysis tool:
+    Use the command below to start the analysis tool:
 	```bash
 	python ROI_vis_tool.py --data_root ${DATASET_ROOT} --metadata_root ${METADATA_ROOT} --vis_result_path ${VIS_PATH}
 	```
 
 2. Choose the **Model** to evaluate.
 3. Select the attributes of interest for the analysis.
-4. Filter the results by clicking **Filter** to refine your selection based on the chosen attributes. The quantitative results will be showed in window.
-5. Visualize a specific scenario by selecting one to view.
-6. Save the results
-    * Click **Generate Video** to save the visualization as a GIF.
-    * Click **Generate JSON** to save the quantitative results as a JSON file.
+4. Click **Filter Scenario** to narrow down the results based on the selected attributes. Quantitative results will appear on the left side of the window.
+5. Pick a scenario from the list to display its corresponding visualization.
+6. Export Results
 
-	The results will be saved in the following directories:
+    * Click **Generate Video** to export the visualization as a GIF.
+    * Click **Generate JSON** to export the quantitative results as a JSON file.
+
+	Output files will be saved in the following directories:
    * GIF : `${VIS_PATH}/gif/${MODEL}/${DATA_TYPE}`
    * JSON : `{VIS_PATH}/json/${MODEL}/${DATA_TYPE}`
 
@@ -59,13 +60,13 @@ This document provides brief instructions on using the evaluation tools for Visu
 
 ## 🔍 Quantitative Results For Risk Object Identification
 
-To evaluate the risk object identification results for a specific model, execute the following command:
+To evaluate the risk object identification results for a specific model, run the following command:
 
 ```bash
 python ROI_tool.py --method ${MODEL} --metadata_root ${METADATA_ROOT} --save_result --result_path ${ROI_PATH}
 ```
 
-The output will be saved at `${ROI_PATH}/${MODEL}/${DATA_TYPE}.josn`.
+The output will be saved in `${ROI_PATH}/${MODEL}/${DATA_TYPE}.josn`.
 
 **Example:**
 
@@ -73,7 +74,7 @@ The output will be saved at `${ROI_PATH}/${MODEL}/${DATA_TYPE}.josn`.
 python ROI_tool.py --method PF+BCP --save_result
 ```
 
-The evaluation result will be saved to `./ROI_result/PF+BCP/interactive.json`.
+The evaluation result will be saved in `./ROI_result/PF+BCP/interactive.json`.
 
 **Sample output [template](./ROI_result/PF+BCP/interactive.json):**
 
