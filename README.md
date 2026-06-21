@@ -3,27 +3,16 @@
   [**Project Page**](https://hcis-lab.github.io/PF-BCP/) 
 | [**Video Overview**](https://www.youtube.com/watch?v=7Een9DPa9ms)
 | [**Paper Preprint**](https://arxiv.org/abs/2409.15846)
+| [**IEEE Xplore**](https://ieeexplore.ieee.org/document/11128295/)
 
 ![Python Version](https://img.shields.io/badge/PyThon-3.7-blue.svg)
 ![PyTorch Version](https://img.shields.io/badge/PyTorch-1.8.0-EE4C2C.svg)
 [![arXiv](https://img.shields.io/badge/arXiv-2409.15846-b31b1b.svg)](https://arxiv.org/abs/2409.15846)
 [![GitHub license](https://img.shields.io/badge/License-GPL_Version_3.0-808080.svg)](./LICENSE)
+[![IEEE](https://img.shields.io/badge/IEEE-ICRA_2025-00629B.svg)](https://ieeexplore.ieee.org/document/11128295/)
 
 
 This repository contains the official code for training and evaluating the methods as described in:
-
-<!-- ## 📋 Overview
-![PF+BCP](images/teaser.png)
-<img src="images/teaser.png" alt="PF+BCP" width="500"/>
-
-**Authors:**
-[**Pang-Yuan Pao**](https://github.com/WaywayPao/),
-[**Shu-Wei Lu**](https://www.linkedin.com/in/shu-wei-lu/),
-**Ze-Yan Lu**,
-[**Yi-Ting Chen**](https://sites.google.com/site/yitingchen0524)
-
-**Affiliation: [National Yang Ming Chiao Tung University](https://www.nycu.edu.tw/nycu/en/index)** -->
-
 
 > **Potential Field as Scene Affordance for Behavior Change-Based Visual Risk Object Identification** <br/>
 > [Pang-Yuan Pao](https://sites.google.com/view/pang-yuan-pao/),
@@ -87,11 +76,9 @@ Ze-Yan Lu and
 
 
 
-<!-- ## 🚀 Usage
+## 🚀 Usage
 
-### Comming Soon -->
-
-
+The source code for training and evaluation is located in the [`./model`](./model) directory. Please refer directly to the code for implementation and execution details.
 
 ## 📊 ROI Demo
 
@@ -124,4 +111,6 @@ This project is licensed under the [GPL-3.0 LICENSE](./LICENSE). -->
 We acknowledge that the dataset and baselines used in this project are adapted from [RiskBench](https://hcis-lab.github.io/RiskBench/).
 
 
+## 📩 Contact
 
+If you have any questions or suggestions, please feel free to open an issue or contact [Pang-Yuan Pao](https://sites.google.com/view/pang-yuan-pao/) at [waywaybao.cs10@nycu.edu.tw](mailto:waywaybao.cs10@nycu.edu.tw).
